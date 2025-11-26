@@ -12,7 +12,7 @@ Optimized G-code macros for Klipper firmware (v1.1.0) designed for Qidi Q2 3D pr
 
 ### PRINT_START Macros
 
-1. **PRINT_START_basic.cfg** - Basic version without box support
+1. **PRINT_START_basic.cfg** - Basic version without box support (Recommended)
    - Execution time: ~3.5-4.5 minutes
    - Recommended for: Single material printing
 
