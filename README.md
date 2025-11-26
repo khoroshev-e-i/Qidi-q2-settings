@@ -43,7 +43,6 @@ Optimized G-code macros for Klipper firmware (v1.1.0) designed for Qidi Q2 3D pr
 2. Include the file in your `printer.cfg`:
    ```ini
    [include PRINT_START_with_boxes.cfg]
-   [include PRINT_END.cfg]
    ```
 4. Ensure `gcode_macro.cfg` does not contains `PRINT_START` macro.
 3. Restart Klipper
@@ -63,14 +62,6 @@ The macro accepts the following parameters:
 
 ```gcode
 PRINT_START BED=60 HOTEND=220 CHAMBER=50 EXTRUDER=0
-```
-
-### PRINT_END
-
-No parameters required. Simply call:
-
-```gcode
-PRINT_END
 ```
 
 ## Key Optimizations
@@ -105,10 +96,6 @@ PRINT_END
 ├── PRINT_START_with_boxes.cfg         # Full version with box support
 ├── PRINT_START_fast.cfg               # Fast version without box support
 ├── PRINT_START_with_boxes_fast.cfg    # Fast version with box support
-├── PRINT_END.cfg                      # Full version with comments
-├── PRINT_END_minimal.cfg              # Minimal version without comments
-└── PRINT_END_full.cfg                 # Full reset version
-```
 
 ### Box System Not Working
 Ensure:
